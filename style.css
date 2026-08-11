@@ -169,6 +169,16 @@ code {
   font-size: 0.9em;
 }
 
+.demo-video {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  margin: 0 0 16px;
+  background: #000;
+}
+
 .steps {
   margin: 0 0 16px;
   padding-left: 22px;

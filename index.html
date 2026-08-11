@@ -12,6 +12,7 @@
 <header class="site">
   <a class="brand" href="index.html">n8n Auto</a>
   <nav>
+    <a href="index.html#demo">Demo</a>
     <a href="index.html#how-it-works">How it works</a>
     <a href="privacy.html">Privacy</a>
     <a href="terms.html">Terms</a>
@@ -22,6 +23,13 @@
   <div class="card">
     <h1>n8n Auto</h1>
     <p class="tagline">Automates posting videos to TikTok on behalf of authorized creators, using n8n workflow automation and TikTok's official Content Posting API.</p>
+
+    <h2 id="demo">Demo</h2>
+    <p>Screen recording of the end-to-end flow: connecting a TikTok account, the n8n workflow picking up a video, and publishing it through the Content Posting API.</p>
+    <video class="demo-video" controls preload="metadata">
+      <source src="demo.mp4" type="video/mp4">
+      Your browser does not support embedded video. <a href="demo.mp4">Download the demo video</a> instead.
+    </video>
 
     <h2 id="how-it-works">How it works</h2>
     <p>n8n Auto is a self-hosted n8n workflow that connects to a creator's own TikTok account through TikTok's official OAuth login, then publishes video content on their behalf. No credentials are ever handled directly — everything goes through TikTok's APIs.</p>
