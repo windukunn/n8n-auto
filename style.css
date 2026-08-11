@@ -168,3 +168,39 @@ code {
   border-radius: 4px;
   font-size: 0.9em;
 }
+
+.steps {
+  margin: 0 0 16px;
+  padding-left: 22px;
+  display: grid;
+  gap: 12px;
+}
+
+.steps li {
+  color: var(--text);
+}
+
+table.scopes {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 0 16px;
+  font-size: 14px;
+}
+
+table.scopes th,
+table.scopes td {
+  text-align: left;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  vertical-align: top;
+}
+
+table.scopes th {
+  background: color-mix(in srgb, var(--text) 5%, transparent);
+  font-weight: 600;
+}
+
+table.scopes td:first-child,
+table.scopes td:nth-child(2) {
+  white-space: nowrap;
+}
